@@ -1,0 +1,205 @@
+<style type="text/css">
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Jomolhari', serif;	
+}
+
+.navst
+{
+	background-color: #a29bfe!important;
+}
+
+.navst a
+{
+	color: white;
+}
+
+.main
+{
+	height: 450px;
+	width: 100%;
+}
+
+.right h1
+{
+	font-size: 3rem;
+}
+
+.cor img
+{
+	animation: abc 3s linear infinite;
+}
+
+ @keyframes abc
+ {
+	 0%	 { transform: rotate(0); }
+ }
+
+ @keyframes abc
+ {
+     100%	 { transform: rotate(360deg); }
+ }
+
+.left img
+{
+	animation: def 3s linear infinite; 
+} 
+ 
+ @keyframes def
+ {
+	 0%
+	 {
+		 transform: scale(0.75);
+	 }
+
+ }
+ 
+  @keyframes def
+ {
+	 20%
+	 {
+		 transform: scale(1);
+	 }
+
+ }
+ 
+  @keyframes def
+ {
+	 40%
+	 {
+		 transform: scale(0.75);
+	 }
+
+ }
+ 
+  @keyframes def
+ {
+	 40%
+	 {
+		 transform: scale(1);
+	 }
+
+ } 
+ 
+   @keyframes def
+ {
+	 80%
+	 {
+		 transform: scale(0.75);
+	 }
+
+ }
+ 
+   @keyframes def
+ {
+	 100%
+	 {
+		 transform: scale(0.75);
+	 }
+
+ }
+ 
+ .corup
+ {
+	 margin: 0 0 30px 0;
+ }
+
+  .corup h3
+ {
+	 color: #ff7675;
+ }
+ 
+   .corup h1
+ {
+	 font-size: 2rem;
+	 text-align: center;
+ }
+ 
+.subs
+{
+	background-color: #fbfafd;
+} 
+ 
+.fot
+{
+	background-color: #a29bfe!Important;
+}
+ 
+.fot p
+{
+	margin-bottom: 0!important;
+}
+ 
+#myBtn
+{
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 40px;
+	z-index: 99px;
+	border: none;
+	outline: none;
+	background-color: #00A8FF;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 10px;	
+}
+ 
+#myBtn:hover
+{
+	background: #606060;
+} 
+ 
+@media(max-width:780px)
+{
+	.main
+	{
+		height: 700px;
+		text-align: center;
+	}
+	
+	.main h1
+	{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		font-size: 30px;
+	}
+	
+	.cost
+	{
+		display: inline!important;
+	}
+	
+	.cost p
+	{
+		text-align: center;
+	}	
+	
+	.bos
+	{
+		margin-left: 0!important;
+	}
+	
+	.cent p
+	{
+		text-align: center;
+	}
+	
+}
+ 
+ 
+ 
+ 
+ 
+</style>
